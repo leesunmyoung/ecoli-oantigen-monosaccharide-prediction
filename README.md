@@ -148,7 +148,7 @@ ChatGPT (OpenAI) and Claude (Anthropic) were used to assist in genomic feature e
 
 If you use this code or data, please cite:
 
-> [Author names] (2026). E. coli O-antigen monosaccharide composition prediction — analysis code (v1.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> [Author names] (2026). E. coli O-antigen monosaccharide composition prediction — analysis code (v1.0). Zenodo. https://doi.org/10.5281/zenodo.19060999
 
 ---
 
