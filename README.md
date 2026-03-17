@@ -23,7 +23,6 @@ Non-CAZyme biosynthetic pathway genes (nucleotide sugar biosynthesis, product na
 ecoli-oantigen-prediction/
 │
 ├── README.md
-├── requirements.txt
 │
 ├── data/
 │   ├── README_data.md                              # Data description
@@ -32,10 +31,10 @@ ecoli-oantigen-prediction/
 │   └── Y_monosaccharide.tsv                        # Y labels only, n=216
 │
 ├── scripts/
-│   ├── 01_data_preprocessing.py    # Data loading, deduplication, X/Y split
-│   ├── 02_feature_importance.py    # MDI feature importance (CAZyme vs non-CAZyme)
-│   ├── 03_model_comparison.py      # Full / CAZyme-only / non-CAZyme-only model comparison
-│   └── 04_pathway_analysis.py      # Scatter plot + Mann-Whitney pathway group analysis
+│   ├── data_preprocessing.py    # Data loading, deduplication, X/Y split
+│   ├── feature_importance.py    # MDI feature importance (CAZyme vs non-CAZyme)
+│   ├── model_comparison.py      # Full / CAZyme-only / non-CAZyme-only model comparison
+│   └── pathway_analysis.py      # Scatter plot + Mann-Whitney pathway group analysis
 │
 └── figures/
     ├── Fig1_feature_importance.png
