@@ -1,12 +1,8 @@
 """
-02_feature_importance.py
+feature_importance.py
 ========================
 MDI (Mean Decrease Impurity) feature importance analysis.
 Compares total contribution of CAZyme vs non-CAZyme feature groups.
-
-Usage:
-    python scripts/02_feature_importance.py
-    (Run 01_data_preprocessing.py first)
 
 Output:
     figures/Fig1_feature_importance.png

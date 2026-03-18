@@ -1,13 +1,13 @@
 """
-04_pathway_analysis.py
+pathway_analysis.py
 ======================
 Scatter plot: monosaccharide frequency (%) vs prediction R2
 Boxplot: locus-encoded biosynthetic vs central metabolic precursor pathways
 Statistical comparison: Mann-Whitney U test (one-sided)
 
 Usage:
-    python scripts/04_pathway_analysis.py
-    (Run 03_model_comparison.py first to generate data/cv_results.csv)
+    python scripts/pathway_analysis.py
+    (Run model_comparison.py first to generate data/cv_results.csv)
 
 Output:
     figures/Fig3_pathway_analysis.png

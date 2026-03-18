@@ -1,11 +1,8 @@
 """
-01_data_preprocessing.py
+data_preprocessing.py
 ========================
 Data loading, deduplication, and X/Y separation for
 E. coli O-antigen monosaccharide composition prediction.
-
-Usage:
-    python scripts/01_data_preprocessing.py
 
 Output:
     data/X_processed.tsv   -- X features after zero-variance removal
@@ -102,7 +99,7 @@ Y_common.to_csv("data/Y_common.tsv", sep='\t')
 
 print("\nSaved: data/X_processed.tsv")
 print("Saved: data/Y_common.tsv")
-print("\nPreprocessing complete. Proceed to 02_feature_importance.py")
+print("\nPreprocessing complete. Proceed to feature_importance.py")
 
 # Export variables for import by downstream scripts
 __all__ = ['X', 'Y_common', 'CAZYME_COLS', 'NON_CAZYME_COLS', 'total']

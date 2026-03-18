@@ -1,5 +1,5 @@
 """
-03_model_comparison.py
+model_comparison.py
 ======================
 5-fold cross-validation R² comparison across three models:
   - Full model          (all 81 features)
@@ -8,10 +8,6 @@
 
 DeltaR2 = R2(non-CAZyme) - R2(CAZyme) is computed per monosaccharide.
 Monosaccharides are classified by biosynthetic pathway type.
-
-Usage:
-    python scripts/03_model_comparison.py
-    (Run 01_data_preprocessing.py first)
 
 Output:
     figures/Fig2_model_comparison.png
