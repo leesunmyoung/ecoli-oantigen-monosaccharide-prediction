@@ -12,4 +12,4 @@ GlcA,15.0,Central metabolic precursor,ugd,-0.059,-0.199,-0.08,0.119,0.218
 GalA,8.8,Central metabolic precursor,"uxaC, uxaB",-0.079,-0.334,-0.049,0.284,0.153
 Glc,39.4,Central metabolic precursor,"pgm, galU",-0.081,-0.104,-0.123,-0.019,0.445
 Ribf,3.8,Central metabolic precursor,"ribB, ribE",-0.092,-0.087,-0.15,-0.062,0.077
-DGro,3.8,Central metabolic precursor,wb cluster (not well characterized),-0.132,-0.008,-0.124,-0.116,0.078
+Gro,5.6,Central metabolic precursor,wb cluster (not well characterized),-0.17,-0.095,-0.181,-0.086,0.112

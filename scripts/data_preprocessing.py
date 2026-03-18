@@ -11,10 +11,9 @@ Output:
 
 import pandas as pd
 import numpy as np
-
 # ── File paths ────────────────────────────────────────────────────────
 X_PATH = "data/oantigen_locus_feature_table_mlX_binTok.tsv"  # X features (160 samples)
-Y_PATH = "data/Y_monosaccharide.tsv"                          # Y labels  (216 samples)
+Y_PATH = "data/Y_monosaccharide_merged.tsv"                          # Y labels  (216 samples)
 
 # ── 1. Load data ──────────────────────────────────────────────────────
 print("=" * 60)
